@@ -1,19 +1,19 @@
 {
-    "name": "restify-rest-api-example",
+    "name": "invisionapp",
+    "description": "Node.js app showcasing producer/consumer concept using RESTful API",
     "version": "0.0.1",
-    "description": "Node.js example illustrating how to write a RESTful API using the node-restify library.",
     "author": "Krunal Thakkar <krunal.jt@gmail.com>",
-    "homepage": "",
+    "homepage": "https://github.com/KT-Krunal/InVisionApp",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "git@github.com:KT-Krunal/InVisionApp.git"
     },
+    "main": "./evaluator/service.js",
     "dependencies": { 
         "restify": "2.6.0"
     },
     "devDependencies": {
-        "jsdoc": "3.3.0",
-
+        "jsdoc": "3.3.0"
     },
     "engines": {
         "node": ">=0.12.5"
