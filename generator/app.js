@@ -16,7 +16,7 @@ function Producer() {
     self = this,
     //private methods
     getRandomInteger,
-    evaluateExpression;
+    solveExpression;
 
     /**
     * @function generates random integer within the range
