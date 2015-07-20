@@ -19,3 +19,10 @@ $> node evaluator/service.js
 $> node generator/app.js
 ```
 
+## Test the application
+
+- Run 'npm test' command from the application directory in command line
+
+## Resources
+- Sequence and Activity UML diagrams are provided under resources/UML directory.
+
