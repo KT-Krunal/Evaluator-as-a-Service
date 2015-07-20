@@ -6,17 +6,9 @@ A simple project to showcase Producer/Consumer concept to evaluate math expressi
 
 Evaluator/Consumer is a RESTful API service. Generator generates the expression and sends the request every half second.
 
-### Installation
-
-- download the code
-- go to the directory from command prompt/terminal
-- run following command
-```node
-$> npm install InVisionApp
-```
-
 ## Running the application
-
+- Download the code
+- Go to the directory from command prompt/terminal
 - Start the evaluator service first in termial/command prompt.
 ```node
 $> node evaluator/service.js

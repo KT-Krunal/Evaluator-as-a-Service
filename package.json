@@ -1,21 +1,26 @@
 {
-    "name": "invisionapp",
-    "description": "Node.js app showcasing producer/consumer concept using RESTful API",
-    "version": "0.0.1",
-    "author": "Krunal Thakkar <krunal.jt@gmail.com>",
-    "homepage": "https://github.com/KT-Krunal/InVisionApp",
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:KT-Krunal/InVisionApp.git"
-    },
-    "main": "./evaluator/service.js",
-    "dependencies": { 
-        "restify": "2.6.0"
-    },
-    "devDependencies": {
-        "jsdoc": "3.3.0"
-    },
-    "engines": {
-        "node": ">=0.12.5"
-    }
+  "name": "invisionapp",
+  "description": "Node.js app showcasing producer/consumer concept using RESTful API",
+  "version": "0.0.1",
+  "author": "Krunal Thakkar <krunal.jt@gmail.com>",
+  "homepage": "https://github.com/KT-Krunal/InVisionApp",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:KT-Krunal/InVisionApp.git"
+  },
+  "main": "./evaluator/service.js",
+  "dependencies": {
+    "restify": "2.6.0"
+  },
+  "devDependencies": {
+    "jsdoc": "3.3.0",
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test/*.js"
+  },
+  "engines": {
+    "node": ">=0.12.5"
+  }
 }
