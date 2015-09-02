@@ -1,6 +1,3 @@
-InVisionApp
-==========
-
 ### Introduction
 A simple project to showcase Producer/Consumer concept to evaluate math expressions. In this system the Generator sends a series of random arithmetic expressions, while the Evaluator will accept these expressions, compute the result and then report the solution to the Generator.
 
